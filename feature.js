@@ -25,26 +25,21 @@ function perMonth() {
 
  // Задача №2 month ot 1 do 12
 
-let month = 6;
-switch (month) {
-    
-    case 1, 2, 12 => System.out.println("зима");
-    case 3, 4, 5 => System.out.println("весна");
-    case 6, 7, 8 => System.out.println("лето");
-    case 9, 10, 11 => System.out.println("осень");
-};
-
-public static void checkSeason(int month); {
-    
-    if (month / 3 == 1)
-        System.out.println("весна");
-    else if (month / 3 == 2)
-        System.out.println("лето");
-    else if (month / 3 == 3)
-        System.out.println("осень");
-    else
-        System.out.println("зима");
-}
+ let month = 9;
+ if (month == 12 || month <= 2) {
+ let result = 'Зима';
+ }
+ if (month >= 3 && month <= 5) {
+ result = 'Весна';
+ }
+ if (month >= 6 && month <= 8) {
+ result = 'Лето';
+ }
+ if (month >= 9 && month <= 11) {
+ result = 'Осень';
+ }
+ console.log(result);
+ 
 // Задача №3 Capitals
 
 let Capitals = {
