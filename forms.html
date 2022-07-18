@@ -7,34 +7,34 @@
       <legend>ФИО</legend>
       <label for="name">
         <span>Имя</span>
-        <input type="text" name="name" id="name">
+        <input type="text" name="name" id="name" required>
       </label>
       <label for="lastname">
         <span>Фамилия</span>
-        <input type="text" name="lastname" id="lastname">
+        <input type="text" name="lastname" id="lastname" required>
       </label>
       <label for="middlename">
         <span>Отчество</span>
-        <input type="text" name="middlename" id="middlename">
+        <input type="text" name="middlename" id="middlename" required>
       </label>
     </fieldset>
     <fieldset>
       <legend>Дата рождения</legend>
-      <input type="datetime" name="birthday" id="birthday">
+      <input type="datetime" name="birthday" id="birthday" required>
     </fieldset>
     <fieldset>
       <legend>Паспортные данные</legend>
       <label for="series">
       <span>Серия</span>
-      <input type="number" name="series" id="series">
+      <input type="number" name="series" id="series" required>
       </label>
       <label for="number"></label>
       <span>Номер</span>
-      <input type="number" name="number" id="number">
+      <input type="number" name="number" id="number" required>
       </label>
       <label for="passportinformation">
       <span>Кем выдан</span>
-      <input type="text" name="passportinformation" id="passportinformation">
+      <input type="text" name="passportinformation" id="passportinformation" required>
       </label>
     </fieldset>
     <fieldset>
@@ -46,6 +46,11 @@
         <option>Таганрог</option>
       </select>
     </fieldset>
+    <fieldset>
+  <button>Отправить</button>
+    </fieldset>
   </form>
+
+
 </body>
 </html>
